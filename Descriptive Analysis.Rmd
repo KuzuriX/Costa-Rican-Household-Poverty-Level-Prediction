@@ -1,0 +1,42 @@
+---
+title: "Descriptive Analysis"
+output: html_notebook
+---
+
+Este es parte del proyecto de IDB (Inter-American Development Bank)
+para mejorar los modelos de predicción de pobreza en Latinoamérica. 
+En este caso en particular se analiza el caso de Costa Rica con datos
+recopilados de variables sociodemográficas y de las viviendas de las personas. 
+
+En este apartado se realiza un analisis descriptivo de la base de datos y las principales variables.
+
+```{r, echo=F, warning=FALSE, message=FALSE}
+library(dplyr)
+library(ggplot2)
+```
+
+
+## Se lee la base de datos
+```{r}
+
+datos <- read.csv('train.csv')
+
+head(datos)
+
+#plot(cars)
+```
+
+
+```{r}
+
+
+
+```
+
+
+Add a new chunk by clicking the *Insert Chunk* button on the toolbar or by pressing *Cmd+Option+I*.
+
+When you save the notebook, an HTML file containing the code and output will be saved alongside it (click the *Preview* button or press *Cmd+Shift+K* to preview the HTML file). 
+
+The preview shows you a rendered HTML copy of the contents of the editor. Consequently, unlike *Knit*, *Preview* does not run any R code chunks. Instead, the output of the chunk when it was last run in the editor is displayed.
+
